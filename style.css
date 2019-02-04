@@ -262,4 +262,29 @@ main#home h1{
 .menu-nav{
   height: 65vh;
 }
+ /* ABOUT ME PAGE */
+ .about-info{
+   grid-template-areas:
+    "bioimage"
+    "bio"
+    "job1"
+    "job2"
+    "job3";
+    grid-template-columns: 1fr;
+ }
+ /* WORK PAGE */
+ .projects{
+   grid-template-columns: 1fr;
+ }
+ .project-title{
+   font-size: 16px;
+ }
+ /* CONTACT PAGE */
+ .lg-heading{font-size: 5rem;
+
+ }
+ .boxes div{
+   font-size: 1.5rem;
+   padding: 1rem 2rem;
+ }
 }
