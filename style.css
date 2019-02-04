@@ -200,3 +200,66 @@ main {
 .boxes div:hover span{
   color:#000;
 }
+
+.project-title{
+  text-align: center;
+  font-size: 20px;
+}
+
+/* Work Page */
+.projects{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+.projects img{
+  width: 100%;
+  border: 3px solid #aaa;
+  margin-bottom: 8px;
+}
+.item a{
+  margin-left: 10px;
+  display: block;
+}
+.item i{
+  margin: 0 10px;
+}
+.work-btn{
+  padding: 6px 8px;
+  margin-bottom: 6px;
+}
+.work-btn:hover{
+  background: #eece1a;
+}
+.btn-dark{
+  background: #000;
+}
+.btn-light{
+  background: #ccc;
+  color: #333;
+}
+@media(max-width:500px){
+  main{
+    align-items: center;
+    text-align: center;
+  }
+
+.lg-heading{
+  line-height: 1;
+  margin-bottom: 1rem;
+
+}
+main#home h1{
+  margin-top: 10vh;
+}
+.menu-nav,.menu-branding{
+  float: none;
+  width: 100%;
+}
+.menu-branding{
+  height: 35vh;
+}
+.menu-nav{
+  height: 65vh;
+}
+}
